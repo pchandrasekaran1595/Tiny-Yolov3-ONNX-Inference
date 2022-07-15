@@ -1,0 +1,1 @@
+start /MAX cmd /c "cls && title TESTS && cd venv/Scripts && activate && cd ../.. && pytest && timeout /t 5 /nobreak"
